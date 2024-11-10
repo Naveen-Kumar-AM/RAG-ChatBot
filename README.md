@@ -15,7 +15,7 @@ This project implements a **Vehicle Diagnosis Chatbot** using **Streamlit** and 
 - Python 3.7 or higher
 - Streamlit (for the UI)
 - PDF extraction library 
-- Any LLM for RAG implementation (Gemini is used here)
+- Large Language Model (LLM) for RAG implementation (e.g., Gemini)
 - CSV (for storing user data)
 
 ## Installation
@@ -23,3 +23,34 @@ This project implements a **Vehicle Diagnosis Chatbot** using **Streamlit** and 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Naveen-Kumar-AM/RAG-ChatBot.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd RAG-ChatBot
+
+3. (Optional): Use a virtual environment to manage dependencies:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+4. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+
+5. Run the application:
+   ```bash
+   streamlit run main.py
+
+## How It Works
+
+1. **User Registration and Login**:
+- The app presents options to Log In or Create an Account.
+- New users enter their details (name, phone number, vehicle model), which are validated and saved in mydata.csv.
+- Returning users log in with their name and phone number, and if authenticated, are redirected to the chatbot.
+2. **Profile Slider UI**:
+After login, users can view and edit their profile details using an interactive slider.
+3. **PDF Uploading and RAG**:
+- PDF Uploading: Users can upload PDFs containing vehicle information, such as manuals or diagnostic reports.
+- Retrieval-Augmented Generation (RAG): The chatbot extracts relevant information from these PDFs to provide context-aware responses during interaction.
+4. **Chatbot Interaction**:
+- After login, users are redirected to the chatbot where they can ask vehicle diagnosis questions. The chatbot leverages RAG to provide responses based on PDF content as well as general knowledge.
