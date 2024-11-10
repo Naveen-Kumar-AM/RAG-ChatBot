@@ -54,4 +54,5 @@ This project implements a **Vehicle Diagnosis Chatbot** using **Streamlit** and 
    - PDF Uploading: Users can upload PDFs containing vehicle information, such as manuals or diagnostic reports.
    - Retrieval-Augmented Generation (RAG): The chatbot extracts relevant information from these PDFs to provide context-aware responses during interaction.
 4. **Chatbot Interaction**:
-   - After login, users are redirected to the chatbot where they can ask vehicle diagnosis questions. The chatbot leverages RAG to provide responses based on PDF content as well as general knowledge.
+   - After login, users are redirected to the chatbot where they can ask vehicle diagnosis questions. 
+   - The chatbot leverages RAG to provide responses based on PDF content as well as general knowledge.
