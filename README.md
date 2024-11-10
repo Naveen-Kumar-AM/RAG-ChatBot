@@ -22,4 +22,4 @@ This project implements a **Vehicle Diagnosis Chatbot** using **Streamlit** and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Naveen-Kumar-AM/RAG-Chatbot.git
+   git clone https://github.com/Naveen-Kumar-AM/RAG-ChatBot.git
