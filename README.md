@@ -49,6 +49,7 @@ This project implements a **Vehicle Diagnosis Chatbot** using **Streamlit** and 
 - Returning users log in with their name and phone number, and if authenticated, are redirected to the chatbot.
 2. **Profile Slider UI**:
 After login, users can view and edit their profile details using an interactive slider.
+
 3. **PDF Uploading and RAG**:
 - PDF Uploading: Users can upload PDFs containing vehicle information, such as manuals or diagnostic reports.
 - Retrieval-Augmented Generation (RAG): The chatbot extracts relevant information from these PDFs to provide context-aware responses during interaction.
