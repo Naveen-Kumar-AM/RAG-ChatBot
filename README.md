@@ -44,14 +44,14 @@ This project implements a **Vehicle Diagnosis Chatbot** using **Streamlit** and 
 ## How It Works
 
 1. **User Registration and Login**:
-- The app presents options to Log In or Create an Account.
-- New users enter their details (name, phone number, vehicle model), which are validated and saved in mydata.csv.
-- Returning users log in with their name and phone number, and if authenticated, are redirected to the chatbot.
+   - The app presents options to Log In or Create an Account.
+   - New users enter their details (name, phone number, vehicle model), which are validated and saved in mydata.csv.
+   - Returning users log in with their name and phone number, and if authenticated, are redirected to the chatbot.
 2. **Profile Slider UI**:
-After login, users can view and edit their profile details using an interactive slider.
+   After login, users can view and edit their profile details using an interactive slider.
 
 3. **PDF Uploading and RAG**:
-- PDF Uploading: Users can upload PDFs containing vehicle information, such as manuals or diagnostic reports.
-- Retrieval-Augmented Generation (RAG): The chatbot extracts relevant information from these PDFs to provide context-aware responses during interaction.
+   - PDF Uploading: Users can upload PDFs containing vehicle information, such as manuals or diagnostic reports.
+   - Retrieval-Augmented Generation (RAG): The chatbot extracts relevant information from these PDFs to provide context-aware responses during interaction.
 4. **Chatbot Interaction**:
-- After login, users are redirected to the chatbot where they can ask vehicle diagnosis questions. The chatbot leverages RAG to provide responses based on PDF content as well as general knowledge.
+   - After login, users are redirected to the chatbot where they can ask vehicle diagnosis questions. The chatbot leverages RAG to provide responses based on PDF content as well as general knowledge.
