@@ -1,0 +1,20 @@
+# Python files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Environment variables file
+.env
+
+# OS-specific files
+.DS_Store
+
+# Data storage files
+mydata.csv
+problems_log.csv
+faiss_index/
+
+# Other directories
+Other/
